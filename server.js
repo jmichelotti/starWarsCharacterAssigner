@@ -16,8 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set("views", path.resolve(__dirname, "templates"));
 app.set("view engine", "ejs");
 
-// get the port number from the command line argument
-const port = process.argv[2];
+const port = 4000
 
 
 const { MongoClient, ServerApiVersion } = require('mongodb');

@@ -7,3 +7,10 @@ App Description - This is an app where you can input personal information(name a
 API Link - https://swapi.dev/documentation
 
 YouTube Demo Video - Adding later
+
+
+
+Setup Instructions
+
+1. Run `npm install` to install dotenv, ejs, express, mongodb, and node-fetch
+2. Run `node server.js` to start the app at localhost:4000
