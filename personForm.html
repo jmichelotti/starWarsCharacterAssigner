@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Star Wars Character Assignment</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Star Wars Character Assigner</h1>
+
+    <form action="/form" method="post"
+        onsubmit="return confirm('Are you sure you want to submit your form?\nYou will not be able to change your information and random number once submitted.')">
+        <fieldset>
+            <label for="name">Please Enter Unique First and Last Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br>
+            <label for="charNum">Random Number to Determine Character:</label><br>
+            <input type="number" id="charNum" name="charNum" min="1" max="83"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
